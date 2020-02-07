@@ -11,8 +11,8 @@ h4,
 h5,
 h6 {
   font-family: "Product Sans", sans-serif;
-	font-weight: 600;
-	letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #ffffff;
   margin-bottom: 15px;
   margin-top: 0;
@@ -21,7 +21,7 @@ h1 {
   font-size: 35px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 h3 {
   font-size: 21px;
@@ -47,8 +47,8 @@ section {
 
 .title {
   position: relative;
-	margin-bottom: 100px;
-	color: white
+  margin-bottom: 100px;
+  color: white;
 }
 .title:after {
   content: "";
@@ -61,7 +61,7 @@ section {
 }
 
 /*Bootstrap*/
-.navbar-ubutia {
+.navbar-clude {
   background-image: none;
   background-color: transparent;
   margin-bottom: 0;
@@ -139,51 +139,49 @@ section {
 .bg-img:after {
   position: absolute;
   content: "";
-  /* height: 100%; */
-  /* width: 100%; */
   background-color: rgba(0, 0, 0, 0.5);
   left: 0;
   top: 0;
 }
 .section {
-	padding: 100px 0;
-	background: #9f5cc0
+  padding: 100px 0;
+  background: #9f5cc0;
 }
 .clude-icon {
   background: transparent url(../images/logo.png) no-repeat;
   width: 155px;
   height: 70px;
-	display: flex;
-	background-size: 150px;
+  display: flex;
+  background-size: 150px;
 }
-.graphic-design {
+.clude-saude-card {
   background: transparent url(../images/clude-saude.png) round;
   width: 120px;
   height: 120px;
-	display: block;
-	border-radius: 60px;
+  display: block;
+  border-radius: 60px;
 }
-.webdevelopment {
+.clude-help-card {
   background: transparent url(../images/clude-help.png) round;
   width: 120px;
   height: 120px;
-	display: block;
-	border-radius: 60px;
+  display: block;
+  border-radius: 60px;
 }
-.printing {
+.clude-shop-card {
   background: transparent url(../images/clude-shop.png) round;
   width: 120px;
   height: 120px;
-	display: block;
-	border-radius: 60px;
+  display: block;
+  border-radius: 60px;
 }
 
-.clude-pro {
+.clude-pro-card {
   background: transparent url(../images/clude-pro.png) round;
   width: 120px;
   height: 120px;
-	display: block;
-	border-radius: 60px;
+  display: block;
+  border-radius: 60px;
 }
 .play-icon {
   background: transparent url(../images/video-play-icon.png) no-repeat;
@@ -191,21 +189,21 @@ section {
   height: 69px;
   display: block;
 }
-/*ubutia Card*/
-.ubutia-card {
-	text-align: center;
-	border: 1px solid white;
-	border-radius: 10px;
-	padding-top: 10px; 
+/*clude Card*/
+.clude-card {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-top: 10px;
 }
 
-.ubutia-card:hover {
-	border: 1px solid indigo;
-	}
-.ubutia-card .ubutia-card-header {
+.clude-card:hover {
+  border: 1px solid indigo;
+}
+.clude-card .clude-card-header {
   margin-bottom: 45px;
 }
-.ubutia-card .ubutia-card-header .card-icon {
+.clude-card .clude-card-header .card-icon {
   border-radius: 100%;
   display: inline-block;
   height: 120px;
@@ -215,10 +213,10 @@ section {
 }
 
 /*Button*/
-.ubutia-btn {
+.clude-btn {
   border-color: #ffffff;
-	font-style: bold;
-	font-family: sans-serif;
+  font-style: bold;
+  font-family: sans-serif;
   color: #9f5cc0;
   border-radius: 40px;
   letter-spacing: 2px;
@@ -229,14 +227,14 @@ section {
 }
 
 .btn-card {
-	color: #ffffff
+  color: #ffffff;
 }
-.ubutia-btn:hover {
+.clude-btn:hover {
   background-color: transparent;
   color: #fff;
 }
 .solid {
-  background-color: transparent	;
+  background-color: transparent;
   color: #fff;
 }
 .solid:hover {
@@ -286,10 +284,8 @@ section {
   margin-right: 10px;
 }
 .social-icons ul a:hover li {
-	color: indigo;
-	border-color: indigo;
-	
-  
+  color: indigo;
+  border-color: indigo;
 }
 
 /*Navigation*/
@@ -300,7 +296,9 @@ section {
   background-color: #9f5cc0;
   text-align: center;
   font-size: 16px;
-  text-transform: uppercase;
+  font-family: "Product Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: bolder;
 }
 .menu-item ul {
   padding-left: 0;
@@ -358,8 +356,8 @@ section {
   background-image: url(../images/1.jpg);
   height: 70vh;
   position: relative;
-	min-height: 50%;
-	background-size: cover;
+  min-height: 50%;
+  background-size: cover;
 }
 
 .intro-box {
@@ -368,38 +366,47 @@ section {
   text-align: left;
   width: 100%;
 }
-
 .intro {
   display: table-cell;
-	vertical-align: baseline;
-	
+  vertical-align: baseline;
 }
 
 .content-trigger {
-	color: 	white;
-	margin-top: -20px;
-	margin-left:	45%;
-	font-size: 18px;
+  color: white;
+  margin-top: -20px;
+  margin-left: 45%;
+  font-size: 18px;
 }
-}
+
 .header h1 {
   margin: 10px;
 }
 .header h1,
 .header p {
   color: #fff;
-	letter-spacing: 1px;
-	width: 50%
+  letter-spacing: 1px;
+  width: 50%;
 }
+@media (max-width: 767px) {
+  .header h1,
+  .header p {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 25px;
+  }
+}
+
 .header p {
   font-size: 23px;
   padding-top: 0;
 }
-.header .ubutia-btn {
+.header .clude-btn {
   border-color: #fff;
   color: #fff;
 }
-.header .ubutia-btn:hover {
+.header .clude-btn:hover {
   background-color: #fff;
   color: #9f5cc0;
 }
@@ -435,20 +442,20 @@ section {
   padding-right: 30px;
 }
 
-.ubutia-quote {
+.clude-quote {
   background-image: url(../images/3.jpg);
   /*padding: 120px 0;*/
   color: #fff;
   font-style: italic;
 }
-.ubutia-quote p {
+.clude-quote p {
   font-size: 32px;
   color: #fff;
 }
-.ubutia-quote .quote {
+.clude-quote .quote {
   margin-bottom: 40px;
 }
-.ubutia-quote .author {
+.clude-quote .author {
   font-size: 21px;
   margin-bottom: 40px;
 }
@@ -456,11 +463,9 @@ section {
   font-style: italic;
   font-size: 20px;
   color: white;
-	padding: 0;
-	
+  padding: 0;
 }
 .watch a {
-  
   margin-left: 10px;
   margin-right: 10px;
   line-height: 70px;
@@ -479,17 +484,17 @@ section {
 }
 
 .subscribe {
-  background-image: url(../images/11.jpg);
+  background-image: url(../images/2.jpg);
 }
-.subscribe .ubutia-btn {
+.subscribe .clude-btn {
   margin-bottom: 0;
   color: #9f5cc0;
   font-weight: 700;
   border-color: #fff;
-	background-color: #fff;
-	border-radius: 40px;
+  background-color: #fff;
+  border-radius: 40px;
 }
-.subscribe .ubutia-btn:hover {
+.subscribe .clude-btn:hover {
   background-color: transparent;
   color: #fff;
 }
@@ -505,27 +510,27 @@ section {
   color: #fff;
 }
 
-.contact .ubutia-card {
+.contact .clude-card {
   padding: 35px 0;
   transition: all 0.3s ease-in-out;
   margin-bottom: 45px;
 }
-/*.contact .ubutia-card:hover{
+/*.contact .clude-card:hover{
 	box-shadow: 0px 4px 2px rgba(17, 17, 17, 0.3);
 }*/
-.contact .ubutia-card .ubutia-card-header {
+.contact .clude-card .clude-card-header {
   margin-bottom: 15px;
   font-size: 30px;
   color: indigo;
 }
-.contact .ubutia-card .ubutia-card-content h3 {
+.contact .clude-card .clude-card-content h3 {
   letter-spacing: 2px;
   margin-bottom: 45px;
 }
-.contact .ubutia-card .ubutia-card-content h3:after {
+.contact .clude-card .clude-card-content h3:after {
   top: 40px;
 }
-.contact .ubutia-card .ubutia-card-content p {
+.contact .clude-card .clude-card-content p {
   font-size: 18px;
 }
 .footer {
@@ -546,10 +551,10 @@ section {
 }
 
 /*animations*/
-.ubutia-card .ubutia-card-header .card-icon:after {
+.clude-card .clude-card-header .card-icon:after {
   transition: all 0.3s ease-in-out;
 }
-.ubutia-card:hover .ubutia-card-header .card-icon:after {
+.clude-card:hover .clude-card-header .card-icon:after {
   height: 120px;
   width: 120px;
   top: -1px;
@@ -568,7 +573,7 @@ section {
 }
 
 @media (max-width: 767px) {
-  .ubutia-card {
+  .clude-card {
     margin-bottom: 60px;
   }
 }
