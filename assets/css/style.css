@@ -11,16 +11,17 @@ h4,
 h5,
 h6 {
   font-family: "Product Sans", sans-serif;
-  font-weight: 900;
+	font-weight: 600;
+	letter-spacing: 1px;
   color: #ffffff;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   margin-top: 0;
 }
 h1 {
-  font-size: 45px;
+  font-size: 35px;
 }
 h2 {
-  font-size: 32px;
+  font-size: 25px;
 }
 h3 {
   font-size: 21px;
@@ -28,7 +29,7 @@ h3 {
 p {
   font-size: 16px;
   font-style: italic;
-  color: #818181;
+  color: white;
 }
 a {
   transition: all 0.3s ease-in-out;
@@ -53,7 +54,7 @@ section {
   content: "";
   height: 5px;
   width: 40px;
-  background-color: #62aa94;
+  background-color: indigo;
   position: absolute;
   top: 81px;
   left: calc(50% - 20px);
@@ -79,10 +80,10 @@ section {
   background-color: transparent;
   color: #424242;
   margin-bottom: 30px;
-  border-color: #51c2b9;
+  border-color: indigo;
 }
 .form-control:focus {
-  border-color: #51c2b9;
+  border-color: indigo;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(81, 194, 185, 0.6);
 }
@@ -146,12 +147,12 @@ section {
 }
 .section {
 	padding: 100px 0;
-	background: purple
+	background: #9f5cc0
 }
 .clude-icon {
   background: transparent url(../images/logo.png) no-repeat;
-  width: 427px;
-  height: 127px;
+  width: 155px;
+  height: 70px;
 	display: flex;
 	background-size: 150px;
 }
@@ -192,9 +193,15 @@ section {
 }
 /*ubutia Card*/
 .ubutia-card {
-  text-align: center;
-  /*margin-bottom: 45px;*/
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding-top: 10px; 
 }
+
+.ubutia-card:hover {
+	border: 1px solid indigo;
+	}
 .ubutia-card .ubutia-card-header {
   margin-bottom: 45px;
 }
@@ -209,27 +216,32 @@ section {
 
 /*Button*/
 .ubutia-btn {
-  border-color: #51c2b9;
-  font-style: italic;
-  color: #51c2b9;
-  border-radius: 0;
-  letter-spacing: 3px;
-  padding: 15px 80px;
+  border-color: #ffffff;
+	font-style: bold;
+	font-family: sans-serif;
+  color: #9f5cc0;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  /* padding: 15px 80px; */
   margin-bottom: 30px;
-  background-color: transparent;
+  background-color: #ffffff;
   transition: all 0.3s ease-in-out;
 }
+
+.btn-card {
+	color: #ffffff
+}
 .ubutia-btn:hover {
-  background-color: #51c2b9;
+  background-color: transparent;
   color: #fff;
 }
 .solid {
-  background-color: #51c2b9;
+  background-color: transparent	;
   color: #fff;
 }
 .solid:hover {
   background-color: #fff;
-  color: #51c2b9;
+  color: indigo;
 }
 .small-btn {
   padding: 10px 130px;
@@ -263,20 +275,21 @@ section {
 .social-icons ul a li {
   display: inline-block;
   list-style-type: none;
-  border: 2px solid #51c2b9;
+  border: 1px solid #fff;
   margin-right: 10px;
-  background-color: #51c2b9;
   color: #fff;
-  font-size: 18px;
-  line-height: 32px;
-  width: 36px;
+  font-size: 30px;
+  line-height: 50px;
+  width: 50px;
 }
 .social-icons ul a li:last-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 .social-icons ul a:hover li {
-  color: #51c2b9;
-  background-color: #fff;
+	color: indigo;
+	border-color: indigo;
+	
+  
 }
 
 /*Navigation*/
@@ -284,7 +297,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .menu-item {
-  background-color: #1a1a1a;
+  background-color: #9f5cc0;
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
@@ -300,7 +313,7 @@ section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .menu-item ul a:hover li {
-  color: #51c2b9;
+  color: indigo;
   text-decoration: none;
 }
 .hide-menu {
@@ -310,11 +323,11 @@ section {
   margin-top: 0;
 }
 .dark-bar {
-  background-color: #424242;
+  opacity: 1;
   background-image: none;
 }
 .navigation-bar {
-  opacity: 10;
+  opacity: 0.7;
   padding: 15px 0;
   font-size: 30px;
 }
@@ -337,15 +350,16 @@ section {
   content: "MENU";
 }
 .c:after {
-  content: "CLOSE";
+  content: "FECHAR";
 }
 
 /*Home page*/
 .header {
   background-image: url(../images/1.jpg);
-  height: 65vh;
+  height: 70vh;
   position: relative;
-  min-height: 100%;
+	min-height: 50%;
+	background-size: cover;
 }
 
 .intro-box {
@@ -374,12 +388,12 @@ section {
 .header h1,
 .header p {
   color: #fff;
-  letter-spacing: 2px;
+	letter-spacing: 1px;
+	width: 50%
 }
 .header p {
-  font-size: 32px;
+  font-size: 23px;
   padding-top: 0;
-  padding-bottom: 40px;
 }
 .header .ubutia-btn {
   border-color: #fff;
@@ -387,7 +401,7 @@ section {
 }
 .header .ubutia-btn:hover {
   background-color: #fff;
-  color: #424242;
+  color: #9f5cc0;
 }
 
 .about {
@@ -439,14 +453,14 @@ section {
   margin-bottom: 40px;
 }
 .watch {
-  background-image: url(../images/7.jpg);
   font-style: italic;
-  font-size: 32px;
-  color: #fff;
-  padding: 150px 0;
+  font-size: 20px;
+  color: white;
+	padding: 0;
+	
 }
 .watch a {
-  border: 2px solid #fff;
+  
   margin-left: 10px;
   margin-right: 10px;
   line-height: 70px;
@@ -460,7 +474,7 @@ section {
 .watch a:hover,
 .watch a:active,
 .watch a:focus {
-  background-color: #fff;
+  background-color: #9f5cc0;
   color: #424242;
 }
 
@@ -469,10 +483,11 @@ section {
 }
 .subscribe .ubutia-btn {
   margin-bottom: 0;
-  color: #424242;
+  color: #9f5cc0;
   font-weight: 700;
   border-color: #fff;
-  background-color: #fff;
+	background-color: #fff;
+	border-radius: 40px;
 }
 .subscribe .ubutia-btn:hover {
   background-color: transparent;
@@ -480,7 +495,7 @@ section {
 }
 .subscribe p {
   color: #fff;
-  font-size: 32px;
+  font-size: 25px;
   margin-bottom: 35px;
 }
 .subscribe .form-control {
@@ -491,7 +506,6 @@ section {
 }
 
 .contact .ubutia-card {
-  background-color: #f8f8f8;
   padding: 35px 0;
   transition: all 0.3s ease-in-out;
   margin-bottom: 45px;
@@ -501,8 +515,8 @@ section {
 }*/
 .contact .ubutia-card .ubutia-card-header {
   margin-bottom: 15px;
-  font-size: 21px;
-  color: #51c2b9;
+  font-size: 30px;
+  color: indigo;
 }
 .contact .ubutia-card .ubutia-card-content h3 {
   letter-spacing: 2px;
@@ -515,12 +529,12 @@ section {
   font-size: 18px;
 }
 .footer {
-  background-color: #202020;
+  background-color: indigo;
   text-align: center;
   padding: 60px 0;
 }
 .footer span {
-  color: #51c2b9;
+  color: indigo;
 }
 .footer p {
   font-size: 21px;
@@ -542,12 +556,12 @@ section {
   left: -1px;
 }
 .owl-theme .owl-dots .owl-dot span {
-  background-color: #51c2b9;
+  background-color: indigo;
   margin: 5px;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #51c2b9;
+  background-color: indigo;
   height: 14px;
   width: 14px;
   margin: 3px;
