@@ -1,9 +1,3 @@
-# uButia
-uButia is a free bootstrap template created by freshdesignweb teams. The template includes the complete source files for download such as HTML5, CSS, CSS3 and JavaScript for easy customization. 
-# Theme Demo
-<img src="https://github.com/grahambill/ubutia/blob/master/ubutia.jpg?raw=true">
-<a href="https://www.freshdesignweb.com/demo/ubutia/">View Demo</a> <a href="https://github.com/grahambill/ubutia/archive/master.zip">Download</a>
-
 There are so many awesome bootstrap templates that have created amazing free resources using Bootstrap. Those free download resources wanted to help spread the word and share their work with our readers. So, we compiled a list of free frontend templates that we thought are beautiful and worth sharing. 
 
 # Scripts included:
@@ -22,7 +16,4 @@ There are so many awesome bootstrap templates that have created amazing free res
 <li><a href="https://www.freshdesignweb.com/free-blogger-templates/">Free Blogger Templates</a></li>  Long list of the best free Blogger templates that are all licensed under GPL and are available for personal and commercial use.
 </ul>
 
-# License information
-uButia is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. But you always need to state that freshDesignweb is the original author of this template.
 
-Project is developed and maintained by <a href="https://www.freshdesignweb.com/">freshDesignweb</a>
