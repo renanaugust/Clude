@@ -485,6 +485,7 @@ section {
 
 .subscribe {
   background-image: url(../images/2.jpg);
+  background-size: cover;
 }
 .subscribe .clude-btn {
   margin-bottom: 0;
